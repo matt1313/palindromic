@@ -1,11 +1,21 @@
 def is_palindrome(sentence):
-    # TODO: return True or False if the sentence is or isn't a palindrome
-    pass
+    if len(sentence) < 2:
+        return True
+        print ("This is a palindrome")
+
+    if sentence[0] != sentence[-1]:
+        return False
+        print("This is not a palindrome")
 
 
 def main():
-    # TODO: put your input/output code here
-    pass
+    sentence = input("Enter a palindrome. ")
+
+    if input() is str
+        return is_palindrome
+    else:
+        print("Not a valid palindrome.")
+
 
 
 if __name__ == '__main__':
